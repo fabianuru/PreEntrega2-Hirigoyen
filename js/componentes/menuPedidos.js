@@ -1,6 +1,6 @@
 function menuPedidos(){
-    let opcion =parseInt(prompt("HOLA " + nombre.toUpperCase() + "\n\n----GESTIONE SUS PEDIDOS---- \n\n 1- INGRESAR AL SISTEMA PEDIDO NUEVO \n 2- ELIMINAR PEDIDO POR ID  \n 4- Volver al menú principal"));
-    while(opcion != 4){
+    let opcion =parseInt(prompt("HOLA " + nombre.toUpperCase() + "\n\n----GESTIONE SUS PEDIDOS---- \n\n 1- INGRESAR AL SISTEMA PEDIDO NUEVO \n 2- ELIMINAR PEDIDO POR ID  \n 3- Volver al menú principal"));
+    while(opcion != 3){
         switch (opcion){
             case 1: 
             agregarPedido();
@@ -12,7 +12,7 @@ function menuPedidos(){
             alert("Debes ingresar una opción válida");
             break;
         }
-        opcion =parseInt(prompt("HOLA " + nombre.toUpperCase() + "\n\n----GESTIONE SUS PEDIDOS---- \n\n 1- INGRESAR AL SISTEMA PEDIDO NUEVO \n 2- ELIMINAR PEDIDO POR ID \n 4- Volver al menú principal"));    }
+        opcion =parseInt(prompt("HOLA " + nombre.toUpperCase() + "\n\n----GESTIONE SUS PEDIDOS---- \n\n 1- INGRESAR AL SISTEMA PEDIDO NUEVO \n 2- ELIMINAR PEDIDO POR ID \n 3- Volver al menú principal"));    }
 }
 
 function agregarPedido() {
